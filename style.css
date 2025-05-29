@@ -1,65 +1,56 @@
-/* Fondo general negro */
 body {
-    background-color: #000000; /* negro */
-    color: #f5f5dc; /* beige clarito para el texto */
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-/* Contenedor general o secciones */
-.section {
-    background-color: #D3D3D3; /* gris aperlado */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 1000px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
-}
-
-/* Títulos principales en azul rey oscuro */
-h1, h2, h3 {
+    background-color: #f5f5dc; /* beige */
     color: #003366; /* azul rey oscuro */
 }
 
-/* Enlaces y botones en burdeo */
-a, .button {
-    background-color: #800000; /* burdeo */
-    color: #f5f5dc; /* beige */
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-/* Hover en verde botella */
-a:hover, .button:hover {
-    background-color: #006a4e; /* verde botella */
+header {
+    background-color: #003366;
     color: #f5f5dc;
-}
-
-/* Footer negro elegante */
-footer {
-    background-color: #000000; /* negro */
-    color: #D3D3D3; /* gris aperlado */
-    padding: 20px;
     text-align: center;
-    border-top: 2px solid #800000; /* borde burdeo */
+    padding: 2rem 1rem;
 }
 
-/* Imagen de perfil redondeada */
+section {
+    padding: 2rem;
+}
+
+.section-title {
+    border-bottom: 2px solid #003366;
+    margin-bottom: 1rem;
+    color: #800000; /* burdeo */
+}
+
+.skills, .contact {
+    background-color: #d3d3c0;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+a {
+    color: #006400; /* verde botella */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #003366;
+    color: #f5f5dc;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
 .profile-photo {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: 3px solid #006a4e; /* borde verde botella */
-    display: block;
-    margin: 0 auto 20px auto;
-}
-
-/* Ajuste para párrafos */
-p {
-    line-height: 1.6;
-    color: #f5f5dc; /* beige */
+    object-fit: cover;
+    margin-top: 1rem;
+    border: 3px solid #800000; /* borde burdeo */
 }
